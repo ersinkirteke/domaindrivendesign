@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Common.Domain
 {
-    public class Money : Value
+    public class Money : ValueObject
     {
         public static Money FromDecimal(decimal amount, string currency,
             ICurrencyLookup currencyLookup) =>

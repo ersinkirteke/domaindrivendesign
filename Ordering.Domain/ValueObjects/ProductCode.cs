@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ordering.Domain.ValueObjects
 {
-    public sealed class ProductCode : Value
+    public sealed class ProductCode : ValueObject
 
     {
         public String Code { get; private set; }

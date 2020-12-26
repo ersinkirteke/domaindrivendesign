@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Common.Domain
 {
-    public class Currency : Value
+    public class Currency : ValueObject
     {
         public string CurrencyCode { get; set; }
         public bool InUse { get; set; }

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Common.Domain
 {
-    public abstract class Value
+    public abstract class ValueObject
     {
         protected abstract IEnumerable<object> GetEqualityComponents();
 
